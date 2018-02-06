@@ -1,0 +1,39 @@
+$crim : crimson;
+$green : green;
+$dodger : dodgerblue;
+$blue : blue;
+$font : ivory;
+$yellow : yellow;
+button{
+    width: 15%;
+    padding: 5px;
+    color : $font;
+    border: none;
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px; 
+    padding : 5px;   
+}
+.green{
+    background-color : $green;
+}
+.crimson{
+    background-color : $crim;
+}
+.yellow{
+    background-color : $yellow;    
+    color : black;
+}
+.blue{
+    background-color :$dodger;    
+}
+h3{
+    font-style: italic;
+    font-weight: bold;
+}
+.color{
+    background-color : $blue;
+    color: $font;
+    padding : 1%;
+}
